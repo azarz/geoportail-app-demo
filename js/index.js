@@ -79,7 +79,7 @@ function app() {
   let layerDisplayed = 'photos'; 
 
   /* Message du jour (message of the day) */
-  const motd_url = cordova.file.applicationDirectory + 'js/motd.json';
+  const motd_url = cordova.file.applicationDirectory + 'geoportail-app-demo/js/motd.json';
   fetch(motd_url).then( response => {
     response.json().then( data => {
       $message.innerHTML += DOMPurify.sanitize(data.motd, {FORBID_TAGS: ['input']});
