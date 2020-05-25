@@ -90,7 +90,7 @@ function app() {
   let controller = new AbortController();
   let signal = controller.signal;
 
-  let marker_img_path = cordova.file.applicationDirectory + 'www/css/assets/position.svg';
+  let marker_img_path = cordova.file.applicationDirectory + 'geoportail-app-demo/css/assets/position.svg';
 
   // Définition du marker
   let gpMarkerIcon = L.icon({
