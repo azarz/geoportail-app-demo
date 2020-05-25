@@ -1,0 +1,17 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Géoportail",
+  "short_name": "Géoportail",
+  "version": "fr.ign.geoportail",
+  "description": "Géoportail, le portail des territoires et des citoyens !\r\n      Visualisez l'information géographique de référence sur le territoire national.\r\n      Photographies aériennes, cartes contemporaines (dont les cartes topographiques IGN), cartes anciennes, composantes du référentiel géographique à grande échelle et parcelles cadastrales sont accessibles directement depuis votre mobile ou votre tablette.",
+  "author": "IGN - Géoportail",
+  "icons": [
+    {
+      "src": "www/img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}
