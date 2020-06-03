@@ -803,8 +803,10 @@ function app() {
 
   // Event coordonnées
   map.on('contextmenu', (event) => {
-    let latlng = map.mouseEventToLatLng(event.originalEvent);
-    openCoords(latlng);
+     if ($chkPrintCoordsOnContext.checked) {
+      let latlng = map.mouseEventToLatLng(event.originalEvent);
+      openCoords(latlng);
+    }
   })
 
   // Action du backbutton
