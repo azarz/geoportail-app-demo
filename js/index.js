@@ -77,6 +77,7 @@ function app() {
   const $infoText = document.getElementById("infoText");
   const $legendImg = document.getElementById("legendImg");
   const $chkNePlusAff = document.getElementById("chkNePlusAff");
+  const $chkPrintCoordsOnContext = document.getElementById("chkPrintCoordsOnContext");
 
   /* global: back button state */
   let backButtonState = 'default';
