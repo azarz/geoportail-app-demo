@@ -93,7 +93,7 @@ function app() {
   }
 
   /* Message du jour (message of the day) */
-  const motd_url = cordova.file.applicationDirectory + 'www/js/motd.json';
+  const motd_url = cordova.file.applicationDirectory + 'geoportail-app-demo/js/motd.json';
   fetch(motd_url).then( response => {
     response.json().then( data => {
       $message.innerHTML += DOMPurify.sanitize(data.motd, {FORBID_TAGS: ['input']});
@@ -114,7 +114,7 @@ function app() {
   let controller = new AbortController();
   let signal = controller.signal;
 
-  let marker_img_path = cordova.file.applicationDirectory + 'www/css/assets/position.svg';
+  let marker_img_path = cordova.file.applicationDirectory + 'geoportail-app-demo/css/assets/position.svg';
 
   // Définition du marker
   let gpMarkerIcon = L.icon({
