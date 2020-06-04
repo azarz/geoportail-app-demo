@@ -103,6 +103,7 @@ function app() {
         if($message.innerHTML !== '') {
           $startPopup.classList.remove('d-none');
         }
+      }
     });
   });
 
