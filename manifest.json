@@ -4,7 +4,7 @@
   "name": "Géoportail",
   "short_name": "Géoportail",
   "version": "fr.ign.geoportail",
-  "description": "Géoportail, le portail des territoires et des citoyens !\r\n      Visualisez l'information géographique de référence sur le territoire national.\r\n      Photographies aériennes, cartes contemporaines (dont les cartes topographiques IGN), cartes anciennes, composantes du référentiel géographique à grande échelle et parcelles cadastrales sont accessibles directement depuis votre mobile ou votre tablette.",
+  "description": "Géoportail, le portail des territoires et des citoyens ! Visualisez l’information géographique de référence sur le territoire national. Photographies aériennes, cartes topographiques IGN, composantes du référentiel géographique à grande échelle, parcelles cadastrales, et maintenant les zones de restriction de survol des drones de loisir sont accessibles directement depuis votre mobile ou votre tablette.",
   "author": "IGN - Géoportail",
   "icons": [
     {

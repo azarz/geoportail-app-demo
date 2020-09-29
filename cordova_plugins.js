@@ -178,6 +178,20 @@ module.exports = [
         "merges": [
             "window.FileSystem"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "id": "cordova-plugin-splashscreen.SplashScreen",
+        "pluginId": "cordova-plugin-splashscreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js",
+        "id": "cordova-plugin-splashscreen.SplashScreenProxy",
+        "pluginId": "cordova-plugin-splashscreen",
+        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -186,7 +200,12 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.3.4",
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-file": "6.0.2",
-    "cordova-plugin-wkwebview-engine": "1.2.1"
+    "cordova-plugin-wkwebview-engine": "1.2.1",
+    "cordova-plugin-splashscreen": "5.0.4",
+    "cordova.plugins.diagnostic": "4.0.10",
+    "cordova-plugin-request-location-accuracy": "2.3.0",
+    "cordova-plugin-androidx": "2.0.0",
+    "cordova-plugin-androidx-adapter": "1.1.1"
 }
 // BOTTOM OF METADATA
 });
