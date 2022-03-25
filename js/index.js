@@ -140,7 +140,7 @@ function app() {
   }
 
   const orthoLyr = L.tileLayer.fallback(
-    "https://wxs.ign.fr/mkndr2u5p00n57ez211i19ok/geoportail/wmts?" +
+    "https://wxs.ign.fr/essentiels/geoportail/wmts?" +
     "&REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0" +
     "&STYLE=normal" +
     "&TILEMATRIXSET=PM" +
@@ -160,7 +160,7 @@ function app() {
   );
 
   const roadsLyr = L.tileLayer.fallback(
-    "https://wxs.ign.fr/mkndr2u5p00n57ez211i19ok/geoportail/wmts?" +
+    "https://wxs.ign.fr/topographie/geoportail/wmts?" +
     "&REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0" +
     "&STYLE=normal" +
     "&TILEMATRIXSET=PM" +
@@ -181,7 +181,7 @@ function app() {
   );
 
   const planLyr = L.tileLayer.fallback(
-    "https://wxs.ign.fr/mkndr2u5p00n57ez211i19ok/geoportail/wmts?" +
+    "https://wxs.ign.fr/essentiels/geoportail/wmts?" +
     "&REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0" +
     "&STYLE=normal" +
     "&TILEMATRIXSET=PM" +
@@ -202,7 +202,7 @@ function app() {
   );
 
   const parcelLyr = L.tileLayer.fallback(
-    "https://wxs.ign.fr/mkndr2u5p00n57ez211i19ok/geoportail/wmts?" +
+    "https://wxs.ign.fr/essentiels/geoportail/wmts?" +
     "&REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0" +
     "&STYLE=PCI%20vecteur" +
     "&TILEMATRIXSET=PM" +
@@ -222,12 +222,12 @@ function app() {
   );
 
   const cartesLyr = L.tileLayer.fallback(
-    "https://wxs.ign.fr/mkndr2u5p00n57ez211i19ok/geoportail/wmts?" +
+    "https://wxs.ign.fr/cartes/geoportail/wmts?" +
     "&REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0" +
     "&STYLE=normal" +
     "&TILEMATRIXSET=PM" +
     "&FORMAT=image/jpeg"+
-    "&LAYER=GEOGRAPHICALGRIDSYSTEMS.MAPS"+
+    "&LAYER=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950"+
     "&TILEMATRIX={z}" +
       "&TILEROW={y}" +
       "&TILECOL={x}",
@@ -242,7 +242,7 @@ function app() {
   );
 
   const dronesLyr = L.tileLayer.fallback(
-    "https://wxs.ign.fr/mkndr2u5p00n57ez211i19ok/geoportail/wmts?" +
+    "https://wxs.ign.fr/transports/geoportail/wmts?" +
     "&REQUEST=GetTile&SERVICE=WMTS&VERSION=1.0.0" +
     "&STYLE=normal" +
     "&TILEMATRIXSET=PM" +
